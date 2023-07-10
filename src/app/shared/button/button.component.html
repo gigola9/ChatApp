@@ -1,0 +1,8 @@
+<button  
+  [ngStyle]="{'background-color': color}"
+  [ngClass]="{'small': (size === 'small'), 'big': (size === 'big')}"
+  [disabled]="disabled"
+  (click)="onButtonClick()"
+>
+  <ng-content></ng-content>
+</button>

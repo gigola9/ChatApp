@@ -1,0 +1,44 @@
+.main {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../../../../assets/Effective-workplace-communication-01.png");
+    background-size: cover;
+    position: relative;
+  }
+  
+  .form {
+    box-shadow: 11px 17px 31px 10px black;
+    width: 300px;
+    height: 230px;
+    position: absolute;
+    top: 170px;
+    right: 200px;
+    background-color: white;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .label {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 90%;
+    margin-bottom: 20px;
+  }
+  
+  input {
+    height: 30px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.527);
+    outline: none;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 2px;
+    color: rgba(0, 0, 0, 0.527);
+  }

@@ -1,0 +1,19 @@
+<div class="main">
+    <form class="form" [formGroup]="loginForm" (ngSubmit)="loginUser()">
+      <div class="label">
+        <label>მეილი</label>
+        <input type="text" matInput formControlName="name" />
+      </div>
+      <div class="label">
+        <label>პაროლი</label>
+        <input
+          matInput
+          [type]="hide ? 'password' : 'text'"
+          formControlName="password"
+        />
+      </div>
+      <app-button size="medium" color="blue" (buttonClick)="loginUser()" style="margin-top: 10px;">
+        შესვლა
+      </app-button>
+    </form>
+  </div>
